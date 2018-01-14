@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<span></span>
+<span></span>
+<span>:</span>
+<span></span>
+<span></span>
+<span>:</span>
+<span></span>
+<span></span>
+<script>
+   setInterval(function(){
+       timer(20)
+   },1000);
+
+    function timer(number){
+            var time=new Date();
+//        console.log(time);
+        /*获取系统的时间*/
+
+            var h=time.getHours();
+            var m=time.getMinutes();
+            var s=time.getSeconds();
+            /*从中把时分秒提取出来*/
+            var end=number*60*60;
+            /*知道要结束的时间并换算成秒*/
+            var start=h*60*60+m*60+s;
+            /*把系统提取的当前时间转换成秒*/
+            var cha=end-start;
+            /*拿未来的时间减去现在的时间，剩下的就是剩余的时间*/
+            var  hh=parseInt(cha/3600);
+            var  mm=parseInt(cha%3600/60);
+            var  ss=parseInt(cha%3600%60);
+            var spans=document.querySelectorAll("span");
+            spans[0].innerHTML=parseInt(hh/10);
+            spans[1].innerHTML=hh%10;
+            spans[3].innerHTML=parseInt(mm/10);
+            spans[4].innerHTML=mm%10;
+            spans[6].innerHTML=parseInt(ss/10);
+            spans[7].innerHTML=ss%10;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <script src="js/rem-common.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            margin: 0 auto;
+            width: 100%;
+            max-width: 5.4rem;
+            min-width: 3.2rem;
+        }
+        .hotel{
+            display: flex;
+            width: 100%;
+            /*height: .9rem;*/
+            /*border: 3px solid white;*/
+            /*box-sizing: border-box;*/
+            margin-bottom: .1rem;
+        }
+        .hotel .hotel1,.hotel .hotel2>div,.hotel .hotel3>div{
+            background: pink;
+        }
+        .hotel1{
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            flex: 1;
+            height: .9rem;
+            border-right: 1px solid white;
+            /*box-sizing: border-box;*/
+        }
+        .hotel2,.hotel3{
+            flex: 1;
+            height: .9rem;
+            display: flex;
+            flex-direction:column;
+            flex-wrap: wrap;
+            /*box-sizing: border-box;*/
+        }
+        .hotel2 div,.hotel3 div{
+            flex: 1;
+            border: 1px solid white;
+            border-bottom: none;
+            height: .45rem;
+        }
+        .hotel3 div:first-child{
+            border-top-right-radius: 10px;
+        }
+        .hotel3 div:last-child{
+            border-bottom-right-radius: 10px;
+        }
+        .fly .hotel1,.fly .hotel2>div,.fly .hotel3>div{
+            background: deepskyblue;
+        }
+        .travel .hotel1,.travel .hotel2>div,.travel .hotel3>div{
+            background: greenyellow;
+        }
+        .last{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            border-radius: 10px;
+            background: orange;
+            border: 1px solid white;
+        }
+        .last>div{
+            flex: 1;
+            display: flex;
+            flex-direction:column;
+        }
+        .last>div>div{
+            width: 100%;
+            height: .45rem;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+<div class="hotel">
+    <div class="hotel1"></div>
+    <div class="hotel2">
+        <div></div>
+        <div></div>
+    </div>
+    <div class="hotel3">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<div class="hotel fly">
+    <div class="hotel1"></div>
+    <div class="hotel2">
+        <div></div>
+        <div></div>
+    </div>
+    <div class="hotel3">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<div class="hotel travel">
+    <div class="hotel1"></div>
+    <div class="hotel2">
+        <div></div>
+        <div></div>
+    </div>
+    <div class="hotel3">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<div class="last">
+    <div class="last1">
+        <div></div>
+        <div></div>
+    </div>
+    <div class="last1">
+        <div></div>
+        <div></div>
+    </div>
+    <div class="last1">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+</body>
+</html>

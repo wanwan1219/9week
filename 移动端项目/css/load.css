@@ -1,0 +1,148 @@
+body{
+    font-size: .12rem;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    height: auto;
+}
+.header{
+    padding: .1rem;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: .5rem;
+}
+.header img{
+    float: left;
+    width: .3rem;
+    height: .33rem;
+}
+.header p{
+    float: left;
+    width: 5.3rem;
+    line-height: .3rem;
+    text-align: center;
+    font-size: .17rem;
+}
+.header span{
+    float: right;
+    display: inline-block;
+    width: .6rem;
+    height: .3rem;
+    background: #f5f5f5;
+    border-radius: .05rem;
+    text-align: center;
+    line-height: .3rem;
+    font-size: .14rem;
+}
+.information{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    text-align: center;
+    background: white;
+}
+.information p{
+    margin: .05rem;
+}
+.information p img{
+    width: .16rem;
+    height: .16rem;
+    vertical-align: middle;
+    margin-right: .1rem;
+}
+.information p input{
+    width: 2.8rem;
+    height: .4rem;
+    outline: none;
+}
+.false{
+    width: 100%;
+    height: .2rem;
+}
+.false p{
+    text-align: center;
+    color: red;
+    line-height: .2rem;
+    font-size: .12rem;
+}
+.two{
+    width: 100%;
+    text-align: center;
+    margin: .3rem auto 0;
+}
+.two .box{
+    background: white;
+    width: .2rem;
+    height: .2rem;
+    border-radius: .02rem;
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+}
+.two .box1{
+    background: #8ab746;
+}
+.two .box img{
+    width: 100%;
+    height: 100%;
+}
+.two p{
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.5rem;
+    font-size: .16rem;
+}
+.two span{
+    display: inline-block;
+    vertical-align: middle;
+    width: .8rem;
+    text-align: center;
+    color: #07a5ff;
+    cursor: pointer;
+}
+.load{
+    width: 100%;
+    margin: .2rem auto 0;
+    text-align: center;
+}
+.load input{
+    margin:0 auto .3rem;
+    width: 2.9rem;
+    height: .4rem;
+    border: 1px solid  #ff3c3c;
+    background:  #ff3c3c;
+    color: white;
+    border-radius: 5px ;
+    outline: none;
+}
+.load p{
+    color:#07a5ff ;
+    margin-bottom: .3rem;
+}
+.del{
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.del span{
+    background: #f5f5f5;
+    position: absolute;
+    width: 19%;
+    font-size: .14rem;
+    font-weight: 600;
+    display:inline-block;
+    text-align: center;
+    bottom:-.12rem;
+    left: 50%;
+    margin-left: -10%;
+}
+.last{
+    width: 100%;
+    text-align: center;
+}
+.last img{
+   margin: .3rem .2rem 0;
+    width: .34rem;
+    height: .34rem;
+}

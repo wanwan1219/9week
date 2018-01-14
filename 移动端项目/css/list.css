@@ -1,0 +1,119 @@
+body{
+    font-size: .12rem;
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: auto;
+    height: auto;
+}
+.header{
+    padding: 0 .1rem;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    height: .4rem;
+    top: 0;
+    border-bottom: 2px solid #ccc;
+    background: white;
+}
+.header .return{
+    width: .23rem;
+    height: .23rem;
+    vertical-align: middle;
+}
+.header p{
+    width: 5.6rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: .4rem;
+    font-size: .17rem;
+}
+.header .dian{
+    width: .25rem;
+    height: .25rem;
+    vertical-align: middle;
+}
+.left{
+    float: left;
+    background: #eee;
+    margin-top: .42rem;
+    text-align: center;
+    width: .75rem;
+    position: relative;
+    top:0;
+    overflow: hidden;
+}
+.left img{
+    width: .22rem;
+    height: .22rem;
+    margin: .1rem .07rem .07rem;
+}
+.left ul{
+    position: absolute;
+    top:0;
+}
+.left ul li{
+    margin: .05rem .05rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.left ul li p{
+    margin-bottom: .1rem;
+    color:#757575;
+    font-size: .14rem;
+}
+.left ul .col{
+    border-bottom: 3px solid #ff3c25;
+}
+.left ul .col p{
+    color:#ff3c25;
+}
+.right{
+    float: left;
+    /*height: auto;*/
+    margin-top: .42rem;
+    overflow: hidden;
+    position: relative;
+    width: 5.65rem;
+}
+.right ol{
+    height: auto;
+    position: absolute;
+    top: 0;
+    width: 5.65rem;
+}
+.right ol li{
+    position: absolute;
+    top:0;
+    width:5.6rem;
+    height: auto;
+    display: none;
+}
+.right ol li:first-of-type{
+    display: block;
+}
+.right p{
+    width: 100%;
+    line-height: .5rem;
+    padding-left: .3rem;
+    font-size: .14rem;
+    background: #f8f8f8;
+}
+.right p span{
+    display: inline-block;
+    width: .07rem;
+    height: .07rem;
+    border-radius: 100%;
+    background: pink;
+    vertical-align: middle;
+}
+.right dl{
+    width: 100%;
+    text-align: center;
+}
+.right dl dd{
+    width: 30%;
+    float: left;
+    margin-left: .1rem;
+    line-height: .7rem;
+}
